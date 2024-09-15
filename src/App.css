@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=M+PLUS+Rounded+1c&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playwrite+CU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('components/Assets/bc\ \(1\).jpeg');
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  font-family: "Quicksand", sans-serif;
+  background-position: center;
+  background-size: cover;
+}
+
+.search {
+  height: 24%;
+  width: 36%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 178, 251);
+  border-radius: 5px;
+
+}
+
+.title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 1%;
+  color: #da3c95;
+}
+
+.searchBtn,
+.searchBtn:hover {
+  color: white;
+  float: right;
+  background-color: #da3c95;
+  margin-top: 3%;
+}
+
+.main {
+  width: 100%;
+  z-index: -2;
+  margin-top: 10%;
+  height: 490px;
+  border-radius: 40px;
+
+  background-color: rgba(250, 144, 227, 0.637);
+}
+
+.profilePic {
+  background-color: aliceblue;
+  top: 20%;
+  left: 51%;
+  z-index: 2;
+  box-shadow: 0 0 37px -2px #e58afad9;
+  -webkit-box-shadow: 0 0 37px -2px #e58afad9;
+  -moz-box-shadow: 0 0 37px -2px #e58afad9;
+  border: 5px solid white;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.profileimage {
+  height: 150px;
+  width: 150px;
+}
+
+.details {
+  height: 390px;
+  margin-top: 6%;
+  margin-left: -0.5%;
+  width: 100%;
+  position: absolute;
+
+}
+
+.mydata {
+  font-weight: 500;
+  color: #f71dffbb;
+  font-size: 19px;
+}
+
+.nameID {
+  font-size: 24px;
+  font-weight: 600;
+  color: #a21ed6;
+  text-align: center;
+}
+
+.bio {
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: -10px;
+}
+
+.buttons {
+
+
+  width: 45%;
+
+  padding-top: 0.9%;
+
+}
+
+.options {
+  margin-bottom: 3%;
+  margin-left: 2%;
+  background-color: #da3c95;
+  color: white;
+}
+
+.options:hover {
+  color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .search {
+    width: 90%;
+  }
+
+  .main {
+    margin-top: 40%;
+    height: 560px;
+  }
+
+  .details {
+    margin-top: 15%;
+  }
+
+  .nameID {
+    margin-top: 10%;
+  }
+}
